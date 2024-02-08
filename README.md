@@ -7,13 +7,13 @@ Yes, it's another chat over documents implementation... but this one is entirely
 It's a Next.js app that read the content of an uploaded PDF, chunks it, adds it to a vector store, and
 performs RAG, all client side. You can even turn off your WiFi after the site loads!
 
-You can see a live version at https://webml-demo.vercel.app.
+You can see a live version at https://completely-local-pdf-chatbot-llm-powered.vercel.app.
 
 Users will need to download and set up [Ollama](https://ollama.ai), then run the following commands to
 allow the site access to a locally running Mistral instance:
 
 ```bash
-$ OLLAMA_ORIGINS=https://webml-demo.vercel.app OLLAMA_HOST=127.0.0.1:11435 ollama serve
+$ OLLAMA_ORIGINS=https://completely-local-pdf-chatbot-llm-powered.vercel.app OLLAMA_HOST=127.0.0.1:11435 ollama serve
 ```
 Then, in another terminal window:
 
